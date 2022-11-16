@@ -31,7 +31,6 @@ import { ImageApiService } from '../image-api.service';
   ],
 })
 export class MainScreenComponent implements OnInit {
-  [x: string]: any;
   @Input() images: string[] = [];
   @Input() showCount = false;
 
